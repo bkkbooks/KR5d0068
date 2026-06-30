@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0068/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5d0068/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 海客論
+  date: '2015-08-29 02:03:03.640155'
+  source:
+    repository: kanripo
+    path: KR5d0068
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0068_000-HFL.yaml, hash: 'sha256:359e9e0320ce41632d5060f9e7356c477eb631d58a419cf0155ed04aefc6790f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0068_000-HFL.markers.yaml, hash: 'sha256:78bdc6f34e5ea92ae1b1ba5d3245765b4f0531540a3ca3173ea4647d7fb8c683'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0068_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 7667
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:8a96e6c7dcdd910824c04f788cdccd3b99b947f9cbedb095603f2cd281d0cbfb

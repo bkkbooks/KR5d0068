@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0068/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5d0068/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 海客論
+  date: '2015-08-29 02:03:03.640155'
+  source:
+    repository: kanripo
+    path: KR5d0068
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0068_000-ZTDZ.yaml, hash: 'sha256:7e46108846e56010ba7a1bc99392246aee73ec17a59df5ab63fe1a9fec67f9f2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0068_000-ZTDZ.markers.yaml, hash: 'sha256:d7638b9d2f0a33354a0501e82b7876cff723a6e6e64f4a2978d2aebefe1c26e0'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0068_SJB_000-230605a
+    span:
+    - body
+    - 0
+    - 7667
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:9b9e3ad3cfeed0eb82d959a4445e952a089a47e243e031a9a02248fc853c2d6d
